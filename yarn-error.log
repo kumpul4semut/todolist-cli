@@ -1,0 +1,43 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add nodemon
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  android arm64
+
+Trace: 
+  SyntaxError: /data/data/com.termux/files/home/nodejs/wa-termux-bot/package.json: Unexpected string in JSON at position 135
+      at JSON.parse (<anonymous>)
+      at /data/data/com.termux/files/usr/share/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/data/data/com.termux/files/usr/share/yarn/lib/cli.js:310:30)
+      at /data/data/com.termux/files/usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "wa-termux-bot",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "dev":"node app.js"
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
